@@ -1,0 +1,111 @@
+* {
+    font-family: "Trebuchet MS", Arial, Helvetica, SansSerif;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    border: 2px solid #89D2D3;
+    width: 800px;
+}
+
+#head {
+    background-color: #89D2D3;
+    width: 100%;
+    height: 200px;
+}
+
+#head #avatar {
+    width: 180px;
+    height: 180px;
+    background-color: #89D2D3;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+}
+
+#head #avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+#head #name {
+    font-size: 50px;
+    float: left;
+    position: relative;
+    top: 10px;
+    left: 110px;
+    font-weight: bold;
+    color: #c41aff;
+}
+
+#head #career {
+    font-style: italic;
+    font-weight: lighter;
+    float: left;
+    position: absolute;
+    top: 90px;
+    left: 315px;
+    letter-spacing: 14px;
+    transform: scale(1, 1.5);
+    transform-origin: left;
+
+}
+
+#address, #phone, #email {
+    float: left;
+    position: absolute;
+    top: 120px;
+    font-size: 14px;
+
+}
+
+#head #address {
+    left: 250px;
+}
+
+#head #phone {
+    left: 400px;
+}
+
+#head #email {
+    left: 600px;
+}
+
+#content {
+    background-color: #FCEFEF;
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+#orientation,#experience,#education {
+    background-color: #aa00fc;
+    height: 40px;
+    width: 800px;
+    position: absolute;
+    float: left;
+}
+#orientation {
+    top: 5%;
+}
+#education {
+    top: 35%;
+}
+#experience {
+    top: 65%;
+}
+
+#footer {
+    background-color: #bb00fc;
+    width: 800px;
+    height: 40px;
+    position: relative;
+}
+#footer p {
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    letter-spacing: 5px;
+    font-style: italic;
+}
